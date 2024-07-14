@@ -20,7 +20,7 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: ["http://localhost:3000","https://ocr-frontend-gsfl.onrender.com"],
+    origin: ["http://localhost:3000","ocr-frontend-ivory.vercel.app"],
     allowHeaders: ["GET", "POST"],
   })
 );
